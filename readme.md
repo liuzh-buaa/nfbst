@@ -108,7 +108,7 @@ python run_t_test.py --data simulation_v3
 #### 5.3 likelihood-ratio test
 
 ```shell
-python run_t_test.py --data simulation_v3
+python run_likelihood_ratio_test.py --data simulation_v3
 ```
 
 ### 6 Analyze
