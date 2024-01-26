@@ -1,4 +1,21 @@
-# Readme
+# *n*FBST
+
+The code of AAAI'24 paper *n*FBST. [Full Bayesian Significance Testing for Neural Networks | Abstract (arxiv.org)](https://arxiv.org/abs/2401.13335)
+
+Significance testing aims to determine whether a proposition about the population distribution is the truth or not given observations. However, traditional significance testing often needs to derive the distribution of the testing statistic, failing to deal with complex nonlinear relationships. In this paper, we propose to conduct Full Bayesian Significance Testing for neural networks, called *n*FBST, to overcome the limitation in relationship characterization of traditional approaches. A Bayesian neural network is utilized to fit the nonlinear and multi-dimensional relationships with small errors and avoid hard theoretical derivation by computing the evidence value. Besides, *n*FBST can test not only global significance but also local and instance-wise significance, which previous testing methods don't focus on. Moreover, *n*FBST is a general framework that can be extended based on the measures selected, such as Grad-*n*FBST, LRP-*n*FBST, DeepLIFT-*n*FBST, LIME-*n*FBST.  A range of experiments on both simulated and real data are conducted to show the advantages of our method. 
+
+If our work has been of assistance to you, please feel free to cite our paper. Thank you.
+
+```
+@inproceedings{liu2024full,
+  title={Full Bayesian Significance Testing for Neural Networks},
+  author={Liu, Zehua and Li, Zimeng and Wang, Jingyuan and He, Yue},
+  booktitle={Proceedings of the Thirty-Eighth AAAI Conference on Artificial Intelligence},
+  year={2024}
+}
+```
+
+# Pipeline
 
 ## Before reading
 
