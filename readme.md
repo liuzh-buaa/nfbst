@@ -10,7 +10,10 @@ If our work has been of assistance to you, please feel free to cite our paper. T
 @inproceedings{liu2024full,
   title={Full Bayesian Significance Testing for Neural Networks},
   author={Liu, Zehua and Li, Zimeng and Wang, Jingyuan and He, Yue},
-  booktitle={Proceedings of the Thirty-Eighth AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={8},
+  pages={8841--8849},
   year={2024}
 }
 ```
